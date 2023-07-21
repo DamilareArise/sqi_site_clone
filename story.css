@@ -1,0 +1,41 @@
+.story1{ 
+    height: 84vh;
+    margin-top: 14vh;
+    background-image:linear-gradient(to right, rgba(240, 234, 234, 0.678), rgba(0, 4,66, 1)), url("/images/img20.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img_story1{
+    height: 60vh;
+    width: 30vw;
+    margin-left: 70px;
+}
+
+.story2{
+    height: 18vh;
+    background-color: rgb(239,239,239);
+}
+
+.story2 :nth-child(2){
+    color: rgb(0,0,128);
+}
+
+.story3{
+    height: 100vh;
+}
+
+@media screen and (max-width: 500px) {
+    .img_story1{
+    height: 30vh;
+    width: 60vw;
+    margin: auto;
+    }
+
+    .story1{
+        margin-top: 10vh;
+        height: 50vh;
+        background-image:linear-gradient(to top, rgba(240, 234, 234, 0.6), rgba(0, 4,66, 1)), url("/images/img20.jpg");
+    }
+}
