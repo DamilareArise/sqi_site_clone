@@ -658,7 +658,7 @@ small{
     box-shadow: 0.2px 2px 2px .2px #0092ccff;
 }
 
-@media (width < 500px){
+@media screen and (max-width: 500px){
     .box{
         /* border: 1px solid black; */
         width: 100vw;
