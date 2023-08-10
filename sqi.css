@@ -645,6 +645,7 @@ small{
 }
 
 .fa2ii{
+    visibility: visible;
     left: 90vw;
     font-size: 1.3rem;
     background-color: #0092ccff;
@@ -655,10 +656,10 @@ small{
 .fa2ii:hover{
     top: 86.6vh;
     background-color: #00208a;
-    box-shadow: 0.2px 2px 2px .2px #0092ccff;
+    box-shadow: 0.2px 2px 2px .2px;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
     .box{
         /* border: 1px solid black; */
         width: 100vw;
@@ -697,6 +698,16 @@ small{
         top: 0vh;
         
     }
+
+    .header_img{
+        margin-left: 80px;
+    }
+    .collapse{
+        /* border: 1px solid black; */
+        margin-left: 10px;
+        background-color: white;
+    }
+    
 
     .header_img{
         margin-left: 10px;
@@ -987,6 +998,10 @@ small{
         padding: 1px 9px;
         color: white;
         font-size: 0.6rem;
+    }
+
+    .fa2ii{
+        visibility: hidden;
     }
 }
 
